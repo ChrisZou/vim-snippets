@@ -18,7 +18,7 @@ snippet priv
 snippet y
 	:yields: ${0:arguments}
 snippet rb
-	#!/usr/bin/env ruby -wKU
+	#!/usr/bin/env ruby -w
 snippet beg
 	begin
 		${0}
@@ -723,3 +723,7 @@ snippet iiexp
 	it { is_expected.to ${0} }
 snippet iiexpn
 	it { is_expected.not_to ${0} }
+snippet defc
+	def self.${0}
+	  ${1}
+	end
